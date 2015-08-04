@@ -1,0 +1,196 @@
+body {
+	background-image: url(../images/java.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px;
+	font-family: calibri;
+	font-size: 13px;
+	color: white;
+	
+}
+body  a {
+	color:#FFF;
+	text-decoration: none;
+}
+body  a:hover {
+	color: #0CF;
+}
+#menucon {
+	color: #FFF;
+	margin: 0px;
+	padding-top: 75px;
+	padding-left: 300px;
+}
+
+#bannier {
+	background-image: url(../images/banniere.jpg);
+	height: 300px;
+	width: 701px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#page {
+	background-image: url(../images/page.jpg);
+	height: 342px;
+	width: 611px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	margin-top:27px;
+	padding-left: 45px;
+	padding-right: 45px;
+	color:#151515;
+}
+#footer {
+	background-image: url(../images/footer.png);
+	height: 54px;
+	width: 701px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: right;
+}
+
+#titre {
+    height:23px;
+	width: 580px;
+	padding-left: 23px;
+	padding-top: 5px;
+	font-weight: bold;
+	color: black;
+	background: url(../images/bg_t.png);
+	
+}
+#titre  a{
+	
+	color:  blue;
+	text-decoration: none;
+
+}
+
+#footertxt {
+	color: #666;
+	text-align: center;
+	width: 701px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 10px;
+}
+
+
+#button {
+	background-image: url(../images/valider.gif);
+	height: 20px;
+	width: 74px;
+}
+#bt {
+	background-image: url(../images/connexion.jpg);
+	height: 20px;
+	width: 100px;
+}
+
+.sel {
+	background-image: url(../images/bg_txt.gif);
+	height: 25px;
+	background-color: Transparent;
+	border: 1px solid #FFF;
+}
+
+
+.ds_box {
+	background-color: ;
+	border: 0px solid #000;
+	position: absolute;
+	z-index: 32767;
+}
+
+.ds_tbl {
+	background-color: ;
+}
+
+.ds_head {
+	background-color: #0066CC;
+	color: #FFF;
+	font-family: calibri;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ds_subhead {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ds_cell {
+	background-color: #EEE;
+	color: #000;
+	font-size: 10px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.ds_cell:hover {
+	background-color: #F3F3F3;
+}
+
+.tit {
+	background-image: url(../images/bg_tab_activ.gif);
+	height: 21px;
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+}
+
+.inac {
+	background-image: url(../images/bg_tab_inactiv.gif);
+	height: 21px;
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+}
+
+tr .numc {
+	color: #F00;
+	font-size: 12px;
+	background-color: #FFF4F2;
+	text-align: center;
+	font-weight: bold;
+}
+
+tr .solde {
+	color: #060;
+	font-size: 12px;
+	background-color: #FBFFF2;
+	text-align: center;
+	font-weight: bold;
+}
+
+#ok {
+	background-image: url(../images/ok.gif);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left: 45px;
+	background-color: #F4FEE7;
+	height: 20px;
+	border: 1px solid #BBE287;
+	padding-top: 4px;
+}
+
+#ko {
+	background-image: url(../images/ko.gif);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left: 45px;
+	background-color: #FFECE0;
+	height: 20px;
+	border: 1px solid #F98A6A;
+	padding-top: 4px;
+}
